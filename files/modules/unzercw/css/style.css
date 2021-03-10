@@ -1,0 +1,169 @@
+
+/**
+ * Payment method selection 
+ */
+.unzercw-logo {
+	float: left;
+}
+
+.unzercw-control-label .unzercw-required {
+	color: #990000;
+}
+
+.unzercw-error {
+	color: #D8000C;
+}
+
+.unzercw-element-error input[type='text'], .unzercw-element-error input[type='password'], .unzercw-element-error select{
+	border-color: #D8000C;
+}
+
+.unzercw-payment-form .card-cvc input[type='text']{
+	width: 60px;
+}
+
+.unzercw-payment-form .card-number input[type='text']{
+	width: 100%;
+	min-width: 200px;
+}
+
+.unzercw-payment-form .expiration-date input[type='text']{
+	min-width: 100px;
+}
+
+.unzercw-payment-form .multi-control .controls {
+	padding-left: 0;
+	width: auto;
+}
+
+.unzercw-payment-form .submit .button-pay {
+	float: right;
+}
+
+.unzercw-payment-return-table {
+	width: 60%;
+	border: solid 1px #f0f0f0;
+	margin-bottom: 10px;
+}
+
+.unzercw-payment-return-table th {
+	font-weight: bold;
+	padding: 4px;
+	width: 100px;
+}
+
+.unzercw-payment-return-table td {
+	padding: 4px;
+}
+
+.unzercw-iframe {
+	height: 525px;
+	width: 100%;
+	border: none;
+}
+
+.unzercw-widget {
+	width: 100%;
+	border: none;
+}
+
+
+
+
+
+
+.unzercw-payment-form .card-brand-image-box {
+	display: inline-block;
+}
+
+
+.unzercw-payment-form .card-brand-image-color.brand-is-deselected {
+	display:none;
+}
+
+.unzercw-payment-form .card-brand-image-grey.brand-is-selected {
+	display:none;
+}
+
+.unzercw-payment-form .card-brand-image-selection {
+	margin-top: 3px;
+}
+
+.unzercw-payment-form .card-brand-image-selection img {
+	width:auto;
+	height: 25px;
+	margin-right: 3px;
+}
+
+.unzercw-payment-form .invalid-card-number, .unzercw-payment-form .invalid-cvc-number {
+	border-color: #fb7f88;
+	background-image: url(../images/invalid.png);
+	background-position: 95% center;
+	background-repeat: no-repeat;
+}
+
+.unzercw-payment-form .valid-card-number, .unzercw-payment-form .valid-cvc-number {
+	background-image: url(../images/valid.png);
+	background-position: 95% center;
+	background-repeat: no-repeat;
+}
+
+
+.unzercw-payment-form .unzercw-expiration-date select {
+	margin-right: 5px;
+}
+
+
+
+p.payment_module.payment-method-list-unzercw.redirect-view-unzercw a:after{
+	display: block;
+	content: "\f054";
+	position: absolute;
+	right: 15px;
+	margin-top: -11px;
+	top: 50%;
+	font-family: "FontAwesome";
+	font-size: 25px;
+	height: 22px;
+	width: 14px;
+	color: #777777;
+}
+
+p.payment_module.payment-method-list-unzercw.redirect-view-unzercw a:hover{
+	background-color: #f6f6f6;
+}
+
+
+.unzercw-payment-form .payment-method-name {
+	font-size: 17px;
+	line-height: 23px;
+	color: #333333;
+	padding-left: 99px;
+	padding-top: 15px;
+	font-weight: bold;
+	min-height: 40px;
+}
+
+.row .unzercw-payment-form {
+	margin-bottom: 10px;	
+}
+
+.unzercw-payment-form {
+	display: block;
+    border: 1px solid #d6d4d4;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 15px 15px 15px 15px;
+    background-color: #fbfbfb;
+}
+
+.unzercw-javascript-required {
+	display:none;
+}
+
+
+.unzercw-external-checkout {
+	display:inline-block;
+	padding: 10px;
+}

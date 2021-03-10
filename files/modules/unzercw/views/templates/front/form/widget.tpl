@@ -1,0 +1,1 @@
+<div class="unzercw-widget">{$widget nofilter}</div>

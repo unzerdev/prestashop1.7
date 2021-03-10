@@ -1,0 +1,340 @@
+
+.unzercw-transaction-table .unzercw-details-row {
+	display:none;
+}
+
+.unzercw-transaction-table .unzercw-main-row .unzercw-more-details-button {
+	cursor: pointer;
+}
+
+.unzercw-transaction-table .unzercw-main-row.active .unzercw-more-details-button{
+	display:none;
+}
+
+.unzercw-transaction-table .unzercw-main-row.active td{
+	border-bottom-color: #f0f0f0;
+}
+
+
+.unzercw-transaction-table .unzercw-details-row.active {
+	display:table-row;
+}
+
+.unzercw-transaction-table label {
+	float:none;
+	font-weight: normal;
+}
+
+.unzercw-transaction-table .unzercw-less-details-button{
+	display:none;
+	cursor: pointer;
+}
+.unzercw-transaction-table .unzercw-main-row.active .unzercw-less-details-button{
+	display:block;
+}
+
+.unzercw-transaction-table .button {
+	cursor: pointer;
+}
+
+.unzercw-transaction-table .transaction-information-table {
+	float: left;
+	border-spacing: 0;
+	width: 350px;
+}
+
+.unzercw-transaction-table .transaction-information-table th {
+	background: none;
+	border:none;
+	width: 200px;
+	white-space: nowrap;
+}
+
+.unzercw-transaction-table .transaction-information-table td {
+	border: none;
+	width: 150px;
+}
+
+.unzercw-transaction-table .transaction-information-table div.label-title {
+	float: left;
+}
+.unzercw-transaction-table .transaction-information-table .description {
+	width: 16px;
+	height: 16px;
+	background-image: url(../images/info.gif);
+	float: left;
+	cursor: pointer;
+	margin-left: 3px;
+	border: solid 1px #FFF;
+}
+.unzercw-transaction-table .transaction-information-table .description .content{
+	position: absolute;
+	width: 200px;
+	white-space: normal;
+	border: solid 1px #f0f0f0;
+	background-color: #FFF;
+	padding: 8px;
+	margin-left: 18px;
+	font-weight: normal;
+}
+
+.unzercw-transaction-table .transaction-information-table .description.hidden .content{
+	display: none;
+}
+
+
+.unzercw-transaction-table .box {
+	overflow: auto;
+	padding: 6px;
+	border: 1px solid #eee;
+	margin: 10px 5px 10px;
+}
+
+.unzercw-transaction-table .box h4 {
+	margin-top: 0px;
+}
+
+.unzercw-error-message {
+	border: 1px solid #CC0000;
+	color: #D8000C;
+	background-color: #FFBABA;
+	margin-bottom: 15px;
+	padding: 12px;
+}
+
+.form-unzercw .langauge-box-wrapper {
+	position: relative;
+}
+.form-unzercw .langauge-box-wrapper.displayed_flag {
+	margin: 0;
+}
+.form-unzercw .language_flags {
+	position: absolute;
+	margin-left: 25px;
+}
+
+
+/** MOTO Form **/
+/* Payment form styles */
+.unzercw-payment-form fieldset h3 {
+	margin: 0 0 15px 0;
+	padding: 8px;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	background: url(../images/bg_form_h3.png) repeat-x 0 0 #989898;
+}
+.unzercw-payment-form fieldset {
+	margin: 0;
+	border: 1px solid #ccc;
+	background: #F8F8F8;
+}
+
+.unzercw-payment-form fieldset input {
+	padding: 0 5px;
+	height: 22px;
+	width: 360px;
+	border: 1px solid #ccc;
+	font-size: 12px;
+	color: #666;
+}
+
+.unzercw-control-group {
+	margin-bottom: 15px;
+	clear: both;
+}
+
+
+.unzercw-control-label {
+	font-size: 14px;
+	display: inline-block;
+	padding: 6px 15px;
+	width: 200px;
+	font-size: 14px;
+	text-align: right;
+	float: left;
+}
+.unzercw-control-label .unzercw-required {
+	color: #990000;
+}
+
+.unzercw-control-group > .unzercw-controls {
+	margin-left: 230px;
+}
+
+
+.unzercw-element-scope {
+	clear: both;
+	display:block;
+	margin-left: 230px;
+}
+
+.unzercw-element-scope label {
+	width: auto;
+
+}
+
+.unzercw-controls label {
+	float: none;
+
+}
+
+
+.unzercw-help-block {
+	margin-left: 230px;
+	clear: both;
+}
+
+.unzercw-error {
+	margin-left: 230px;
+	color: #D8000C;
+}
+
+.unzercw-element-error input[type='text'], .unzercw-element-error input[type='password'], .unzercw-element-error select{
+	border-color: #D8000C;
+}
+
+.unzercw-card-cvc input[type='text']{
+	width: 40px;
+}
+
+.unzercw-multi-control .unzercw-controls { 
+	float: left;
+}
+
+.unzercw-multi-control {
+	overflow: auto;
+}
+
+.unzercw-backend-form fieldset {
+	margin-bottom: 15px;
+}
+
+/* GIRD */
+
+.unzercw-transaction-table {
+	width: 100%;
+	border-spacing: 0;
+}
+
+.unzercw-transaction-table td{
+	padding: 0px;
+}
+
+
+.unzercw-transaction-table .ascending {
+	
+	background-image: url("../../../img/admin/down_d.gif");
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+}
+
+.unzercw-transaction-table .descending {
+	background-image: url("../../../img/admin/up_d.gif");
+	display: inline-block;
+	background-repeat: no-repeat;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+}
+
+.unzercw-transaction-table .reset-sorting {
+	background-image: url("../images/close.png");
+	background-position: -3px -3px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+}
+
+.unzercw-transaction-table .no-sorting .reset-sorting {
+	display: none;
+}
+
+.unzercw-transaction-table .descending-sorting .descending {
+	
+}
+
+.unzercw-transaction-table .ascending-sorting .ascending {
+	background-image: url("../../../img/admin/down.gif");
+}
+
+
+.grid ul.pagination li {
+	float: left;
+	width: 15px;
+	padding-top: 4px;
+}
+
+.grid .grid-footer {
+	margin-bottom: 10px;
+}
+
+.grid .info-box-grid {
+	display: inline-block;
+}
+
+.alert {
+	background-color: #F8F8F8;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+	padding: 5px 0;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+.unzercw-payment-form .card-brand-image-box {
+	display: inline-block;
+}
+
+
+.unzercw-payment-form .card-brand-image-color.brand-is-deselected {
+	display:none;
+}
+
+.unzercw-payment-form .card-brand-image-grey.brand-is-selected {
+	display:none;
+}
+
+.unzercw-payment-form .card-brand-image-selection {
+	margin-top: 3px;
+}
+
+.unzercw-payment-form .card-brand-image-selection img {
+	width:auto;
+	height: 25px;
+	margin-right: 3px;
+}
+
+.unzercw-payment-form .invalid-card-number, .unzercw-payment-form .invalid-cvc-number {
+	border-color: #fb7f88;
+	background-image: url(../images/invalid.png) !important;
+	background-position: 95% center;
+	background-repeat: no-repeat;
+}
+
+.unzercw-payment-form .valid-card-number, .unzercw-payment-form .valid-cvc-number {
+	background-image: url(../images/valid.png) !important;
+	background-position: 95% center;
+	background-repeat: no-repeat;
+}
+
+
+.unzercw-payment-form .unzercw-expiration-date select {
+	margin-right: 5px;
+}
+
+
