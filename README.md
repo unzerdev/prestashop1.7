@@ -1,10 +1,10 @@
-![Logo](https://dev.unzer.com/wp-content/uploads/2020/09/Unzer__PrimaryLogo_Raspberry_RGB.png)
+![Logo](unzer_logo.svg)
 
 # Unzer PrestaShop 1.7 Plugin
 This plugin provides for an easy way to connect to the Unzer Rest API.
 
 Please refer to the attached manual file for installation instructions and usage information.
-General information on our API can be found in our [API Documentation](https://docs.unzer.com/docs/introduction).
+General information on our API can be found in our [API Documentation](https://docs.unzer.com).
    
 
 ## Payment types supported by this plugin are

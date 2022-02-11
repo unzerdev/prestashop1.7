@@ -53,7 +53,8 @@ class UnzerCw extends Module {
 	 * This method init the module.
 	 */
 	public function __construct(){
-		
+
+		libxml_use_internal_errors(true);
 		// We have to make sure we can reuse the instance later.
 		if (self::$instance === null) {
 			self::$instance = $this;
@@ -61,7 +62,7 @@ class UnzerCw extends Module {
 		
 		$this->name = 'unzercw';
 		$this->tab = 'checkout';
-		$this->version = preg_replace('([^0-9\.a-zA-Z]+)', '', '1.0.55');
+		$this->version = preg_replace('([^0-9\.a-zA-Z]+)', '', '1.0.85');
 		$this->author = 'customweb ltd';
 		$this->currencies = true;
 		$this->currencies_mode = 'checkbox';
