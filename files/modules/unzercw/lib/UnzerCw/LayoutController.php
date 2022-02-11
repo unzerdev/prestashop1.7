@@ -35,7 +35,7 @@ final class UnzerCw_LayoutController extends ModuleFrontController {
 	 * @var Customweb_Mvc_Layout_IRenderContext
 	 */
 	private $layoutContext = null;
-	protected $page_name = 'unzercw';
+	public $page_name = 'unzercw';
 
 	public function renderContext(Customweb_Mvc_Layout_IRenderContext $context){
 		//We need to reinitialize the controller

@@ -29,7 +29,7 @@ class UnzerCw_PaymentMethod extends PaymentModule implements Customweb_Payment_A
 	private $configurationApi = null;
 	public $currencies = true;
 	public $currencies_mode = 'checkbox';
-	public $version = '1.0.55';
+	public $version = '1.0.85';
 	public $paymentMethodDisplayName = 'Unzer';
 	public $paymentMethodName = '';
 	public $author = 'customweb ltd';
