@@ -15,8 +15,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 * Set salutation to unknown by default.
 * Made salutation mandatory for secure payments.
 * Perform BIC validation if required only.
-* Several minor changes.
 * Updated documentation links.
+* Several minor changes.
 
 ### Added
 * Added handling of holder field for card payments.
