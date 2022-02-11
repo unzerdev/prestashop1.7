@@ -38,7 +38,7 @@ class UnzerCw_UnzerBankTransfer extends PaymentModule implements UnzerCw_IPaymen
 	private $configurationApi = null;
 	public $currencies = true;
 	public $currencies_mode = 'checkbox';
-	public $version = '1.0.55';
+	public $version = '1.0.85';
 	public $author = 'customweb ltd';
 	public $is_eu_compatible = 1;
 	public $name = 'unzercw_unzerbanktransfer';
@@ -200,6 +200,7 @@ require_once 'UnzerCw/Adapter/AbstractAdapter.php';
 				->setCallToActionText($this->getPaymentMethodDisplayName())
 				->setAction($this->getShopAdapter()->getRedirectionUrl())
 				->setForm($this->getPaymentPane())
+				->setModuleName($this->name)
 				->setBinary(false)
 				->setLogo($this->getPaymentMethodLogo());
 		//->setAdditionalInformation($this->context->smarty->fetch('module:unzercw/views/templates/front/payment_infos.tpl'))

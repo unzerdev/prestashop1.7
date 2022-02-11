@@ -25,7 +25,7 @@
 			var unzercw_ajax_submit_callback_{$paymentMachineName} = {$ajaxSubmitCallback};
 		</script>
 	{/if}
-	
+
 	{if isset($ajaxScriptUrl)}
 		<form class="unzercw-ajax-authorization-form form-horizontal" data-method-name="{$paymentMachineName}">
 	{elseif isset($formActionUrl)}
@@ -33,11 +33,11 @@
 	{elseif isset($ajaxPendingOrderSubmit) && $ajaxPendingOrderSubmit}
 		<form action="#" class="form-horizontal" data-method-name="{$paymentMachineName}">
 	{/if}
-		
+
 	{if isset($aliasForm)}
 		{$aliasForm nofilter}
 	{/if}
-	
+
 	{if isset($visibleFormFields)}
 		<fieldset>
 			{$visibleFormFields nofilter}
@@ -50,7 +50,7 @@
 	{if isset($hiddenFields)}
 		{$hiddenFields nofilter}
 	{/if}
-	
+
 	{if isset($additionalOutput)}
 		{$additionalOutput nofilter}
 	{/if}
