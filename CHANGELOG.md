@@ -6,9 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ## [1.0.85](https://github.com/unzerdev/prestashop1.7/compare/1.0.55..1.0.85)
 
 ### Fixed
-* Fix style errors in checkout forms.
+* Fixed style errors in checkout forms.
 * Changed EPS checkout label to 'Bank'.
-* Fix documentation links.
 
 ### Changed
 * Fully re-branded to Unzer.
@@ -17,6 +16,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 * Made salutation mandatory for secure payments.
 * Perform BIC validation if required only.
 * Several minor changes.
+* Updated documentation links.
 
 ### Added
 * Added handling of holder field for card payments.
